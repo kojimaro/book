@@ -4,10 +4,19 @@
 
 Before we dive in, we have some design choices to consider.
 
+飛び込む前に私たちはいくつか考慮することがあります。
+
 ### Infinite Universe
 
 The Game of Life is played in an infinite universe, but we do not have infinite
-memory and compute power. Working around this rather annoying limitation usually
+memory and compute power. 
+
+「The Game of Life」は無限の宇宙で遊びます。
+
+しかし無限のメモリーもコンピューターパワーも持っていません。
+
+
+Working around this rather annoying limitation usually
 comes in one of three flavors:
 
 1. Keep track of which subset of the universe has interesting things happening,
